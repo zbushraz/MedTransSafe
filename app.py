@@ -1,6 +1,6 @@
 import os, json
 import streamlit as st
-from checker import check
+from checker_fixed import check
 st.set_page_config(page_title='MedTransSafe v0.1',page_icon='🩺',layout='wide')
 st.title('🩺 MedTransSafe v0.1')
 st.caption('Research prototype · English → Urdu medical translation instruction-change detection')
